@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <header>
+            <h1>AGE CALCULATOR</h1>
+        </header>
+
+        <div>
+            <label for="inputDob">Enter Your Date of Birth:</label> <br>
+            <input type="date" id="inputDob" value="1996-07-28">
+        </div>
+
+        <div>
+            <label for="cdate">Current Date:</label> <br>
+            <input type="date" id="cdate">
+        </div>
+        <br>
+
+        <button type="button" onclick="getDOB()">
+            Calculate
+        </button>
+        <br><br>
+
+        <div id="currentage"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
